@@ -1,36 +1,18 @@
-*.py[cod]
-
-# C extensions
+#
+# Fuentes compiladas
+#
+*.class
+*.dll
+*.exe
+*.[oa]
 *.so
+*.pyc
+*.project
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
-__pycache__
-
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+#
+# Ficheros generados por el SO
+#
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+urls.sublime-workspace
