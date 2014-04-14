@@ -14,7 +14,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 ADMINS = (
-    ('Sala Sociogeográfica Situacional e Información', 'analistasalaestadal@gmail.com'),
+    ('Sala Sociogeografica Situacional e Informacion', 'analistasalaestadal@gmail.com'),
 )
 
 
@@ -40,7 +40,6 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 )
@@ -76,7 +75,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'es-VE'
+LANGUAGE_CODE = 'es-ve'
 
 TIME_ZONE = 'America/Caracas'
 
